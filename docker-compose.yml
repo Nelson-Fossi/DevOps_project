@@ -3,6 +3,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: whoami
+    image: golangwebapi
     ports:
       - "8181:8181"
